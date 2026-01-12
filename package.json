@@ -1,6 +1,7 @@
 {
   "name": "mern",
   "version": "0.1.0",
+  "homepage": "https://gkumar006.github.io/mern",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
