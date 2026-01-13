@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     async function load() {
-      const res = await fetch('https://fakestoreapi.com/products');
+      const res = await fetch('https://ecommerce-backend-uwey.onrender.com/api/products');
       const data = await res.json();
       console.log(data);
       setProductsData(data);
